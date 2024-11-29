@@ -46,7 +46,7 @@ module.exports = {
         downW: "url('./image/icon-downW.svg')",
         enter: "url('./image/icon-enter.svg')",
         enter2: "url('./image/icon-enter2.svg')",
-        right: "url('./image/icon-right.svg')",
+        right1: "url('./image/icon-right.svg')",
 
         home: "url('./image/icon-home.svg')",
 

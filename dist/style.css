@@ -1430,7 +1430,7 @@ html {
   background-image: url('./image/icon-play.svg');
 }
 
-.bg-right {
+.bg-right1 {
   background-image: url('./image/icon-right.svg');
 }
 
@@ -1564,10 +1564,6 @@ html {
 
 .bg-left {
   background-position: left;
-}
-
-.bg-right {
-  background-position: right;
 }
 
 .bg-no-repeat {
