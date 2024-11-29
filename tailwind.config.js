@@ -21,6 +21,7 @@ module.exports = {
       pc: "1200px",
     },
     colors: {
+      mainBlue: "#2B7EBD",
       graFrom: "#1364A2",
       graTo: "#502278",
 
@@ -47,6 +48,7 @@ module.exports = {
         enter: "url('./image/icon-enter.svg')",
         enter2: "url('./image/icon-enter2.svg')",
         right1: "url('./image/icon-right.svg')",
+        download: "url('./image/icon-download.svg')",
 
         home: "url('./image/icon-home.svg')",
 
@@ -64,6 +66,7 @@ module.exports = {
         spring: "url('./image/icon-spring.svg')",
         flutter: "url('./image/icon-flutter.svg')",
 
+        intro1: "url('./image/img-intro-bg1.png')",
 
       },
     },
