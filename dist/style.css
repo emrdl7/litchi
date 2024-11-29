@@ -1430,6 +1430,10 @@ html {
   background-image: url('./image/icon-play.svg');
 }
 
+.bg-right {
+  background-image: url('./image/icon-right.svg');
+}
+
 .bg-spring {
   background-image: url('./image/icon-spring.svg');
 }
@@ -1440,10 +1444,6 @@ html {
 
 .bg-sveltekit {
   background-image: url('./image/icon-sveltekit.svg');
-}
-
-.bg-right {
-  background-image: url('./image/icon-right.svg');
 }
 
 .from-graFrom {
@@ -1476,6 +1476,10 @@ html {
 
 .bg-\[22px_auto\] {
   background-size: 22px auto;
+}
+
+.bg-\[7px_auto\] {
+  background-size: 7px auto;
 }
 
 .bg-\[auto_12px\] {
@@ -1530,18 +1534,6 @@ html {
   background-size: cover;
 }
 
-.bg-\[9px_auto\] {
-  background-size: 9px auto;
-}
-
-.bg-\[8px_auto\] {
-  background-size: 8px auto;
-}
-
-.bg-\[7px_auto\] {
-  background-size: 7px auto;
-}
-
 .bg-\[center_bottom_40px\] {
   background-position: center bottom 40px;
 }
@@ -1562,6 +1554,10 @@ html {
   background-position: center top 20px;
 }
 
+.bg-\[right_8px_center\] {
+  background-position: right 8px center;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1572,14 +1568,6 @@ html {
 
 .bg-right {
   background-position: right;
-}
-
-.bg-\[right_10px_center\] {
-  background-position: right 10px center;
-}
-
-.bg-\[right_8px_center\] {
-  background-position: right 8px center;
 }
 
 .bg-no-repeat {
@@ -1713,6 +1701,10 @@ html {
   padding-left: calc(100% - 280px);
 }
 
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
 .pr-\[64px\] {
   padding-right: 64px;
 }
@@ -1743,10 +1735,6 @@ html {
 
 .pt-\[96px\] {
   padding-top: 96px;
-}
-
-.pr-\[30px\] {
-  padding-right: 30px;
 }
 
 .text-left {
@@ -3173,10 +3161,6 @@ html {
 
   .pc\:text-\[22px\] {
     font-size: 22px;
-  }
-
-  .pc\:text-\[24px\] {
-    font-size: 24px;
   }
 
   .pc\:text-\[26px\] {
