@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>릿치 Litchi</title>
+
+    <link href="swiper-bundle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="main ">
+    <!-- S:skip_navi -->
+    <div class="skip_navi">
+        <a class="sr-only-focusable sr-only" href="#header">메뉴 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#content">본문 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#footer">푸터 바로가기</a>
+    </div>
+    <!-- E:skip_navi -->
+    <!-- S:header -->
+    <header id="header" class="relative z-[800] inline-block w-full">
+        <div class="max-xl container relative h-[60px] px-[15px] leading-[60px] pc:h-[110px] pc:px-0">
+            <h1
+                class="relative top-[19px] left-0 w-[100px]  h-[21.5px] bg-logo bg-cover bg-center bg-no-repeat text-zero pc:h-[32.68px] pc:w-[152px] pc:top-[39px] pc:left-[20px]">
+                <a href="" class="block h-full">릿치</a>
+            </h1>
+
+            <div class="absolute right-[15px] top-[8px] pc:top-[30px]">
+
+                <button id="langButton" class="h-[30px] w-[30px] mr-[10px] bg-lang bg-cover bg-center bg-no-repeat text-zero">
+                    언어토글
+                </button>
+
+                <div id="language" class="hidden absolute left-0 top-[55px] bg-white drop-shadow-md leading-[30px] py-[10px] px-[20px] ml-[15px] translate-x-[-50%] rounded-[10px] before:block before:border-[10px] before:border-transparent before:border-b-[#fff] before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[-20px]">
+                    <a href="" class="block">KOR</a>
+                    <a href="" class="block">ENG</a>
+                </div>
+    
+                <button id="menuButton" class="h-[30px] w-[30px] bg-menu bg-cover bg-center bg-no-repeat text-zero pc:hidden">
+                    메뉴토글
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <!-- E:header -->
+
+    <!-- S:main_menu -->
+
+    <nav id="mainMenu" class="fixed z-[1000] bottom-0 left-0 right-0 top-0 hidden overflow-y-auto px-[35px] pt-[100px] pb-[20px] bg-white pc:bg-transparent pc:absolute pc:overflow-visible pc:left-[50%] pc:top-[44px] pc:w-auto pc:right-auto pc:bottom-auto pc:block pc:p-0 pc:translate-x-[-330px]">
+
+        <h2 class="absolute text-[#222] font-bold text-[26px] left-[15px] top-[20px] pc:hidden">릿치</h2>
+
+            <ul class="text-nowrap">
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444] pc:after:inline-block pc:after:ml-[10px] pc:after:bg-down pc:after:w-[15px] pc:after:h-[15px] pc:after:bg-[length:100% auto] pc:after:bg-no-repeat pc:after:bg-center">회사소개</a>
+                    </h3>
+                    <ul class="mt-[30px] pl-[20px] text-[16px] pc:hidden pc:p-0 pc:absolute pc:left-[50%] pc:min-w-[160px] pc:translate-x-[-50%] pc:bg-[rgba(255,255,255,.8)] pc:pt-[70px] pc:pb-[20px] pc:mt-0 pc:top-[-20px] pc:text-[16px] pc:drop-shadow-xl rounded-md pc:text-center">
+
+                        <li class="mt-[18px] pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">릿치</a>
+                        </li>
+                        <li class="mt-[18px] pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">연혁</a>
+                        </li>
+                        <li class="mt-[18px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">오시는 길</a>
+                        </li>
+                        <li class="mt-[18px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">장애인기업 안내</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444]">프로젝트</a>
+                    </h3>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444] pc:after:inline-block pc:after:ml-[10px] pc:after:bg-down pc:after:w-[15px] pc:after:h-[15px] pc:after:bg-[length:100% auto] pc:after:bg-no-repeat pc:after:bg-center">제품소개</a>
+                    </h3>
+                    <ul class="mt-[30px] pl-[20px] text-[16px] pc:hidden pc:p-0 pc:absolute pc:left-[50%] pc:min-w-[160px] pc:translate-x-[-50%] pc:bg-[rgba(255,255,255,.8)] pc:pt-[70px] pc:pb-[20px] pc:mt-0 pc:top-[-20px] pc:text-[16px] pc:drop-shadow-xl rounded-md pc:text-center">
+                        <li class="mt-[18px] pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">스마트 HACCP</a>
+                        </li>
+
+                        <li class="mt-[18px] pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">픽토리 PICTORI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444]">문의하기</a>
+                    </h3>
+                </li>
+            </ul>
+
+
+        <button id="menuClose"
+            class="absolute right-[15px] top-[15px] w-[30px] h-[30px] bg-close pc:hidden text-zero">
+            메뉴닫기
+        </button>
+    </nav>
+    <!-- E:main_menu -->
+
+
+
+    <!-- S:mainContent -->
+    <div id="content" class="main ">
+
+
+        <section class="max-xl relative bg-[#F4F4F4]">
+            <div class="container px-[15px] pc:px-[20px] relative">
+                
+                <ul class="leading-[54px] whitespace-nowrap overflow-y-auto text-[16px] pc:leading-[78px] pc:text-[20px]">
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-[#000] text-[#222] font-bold">릿치</a>
+                    </li>
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-transparent text-[#777] font-medium">연혁</a>
+                    </li>
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-transparent text-[#777] font-medium">오시는길</a>
+                    </li>
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-transparent text-[#777] font-medium">장애인기업 수의계약</a>
+                    </li>
+                </ul>
+
+                <div class="hidden pc:block absolute right-[20px] top-0 leading-[78px] pl-[34px]">
+                    <a href="" class="block absolute left-0 top-[50%] translate-y-[-50%] text-zero w-[24px] h-[24px] bg-home bg-[100%_auto] bg-center bg-no-repeat ">홈</a>
+                    <a href="" class="inline-block text-[#777] font-medium pr-[30px] bg-right bg-[7px_auto] bg-[right_8px_center] bg-no-repeat ">회사소개</a>
+                    <strong class="inline-block text-[#777] font-medium">릿치</strong>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        
+
+
+        <section id="contents" class="max-xl relative pt-[70px] pb-[70px] pc:pt-[100px] pc:pb-[150px]">
+
+            <div class="container px-[15px] pc:px-[20px]">
+
+                <p class="text-center leading-[400px] text-[22px] font-black text-[#999]">컨텐츠 준비중 입니다</p>
+            </div>
+
+
+        </section>
+
+
+
+    </div>
+    <!-- E:mainContent -->
+
+    <!-- S:footer -->
+    <footer id=" footer" class="bg-[#222] text-white pc:pt-[50px] pc:pb-[100px]">
+
+        <div class="max-xl le container relative bg-gradient-to-b from-graFrom2 to-graTo2 pc:rounded-[300px]">
+            <a href="" class="block px-[15px] pt-[50px] pb-[115px] text-center pc:text-left bg-enter2 bg-[length:44px_auto] bg-[center_bottom_40px] bg-no-repeat pc:align-top pc:leading-[150px] pc:py-0 pc:px-[78px] pc:bg-[right_78px_center]">
+                <strong class="block font-black text-[26px] mb-[30px] pc:inline-block pc:mb-0 pc:text-[38px] pc:mr-[56px]">문의하기</strong>
+
+                <p class="text-[16px] font-medium pc:inline-block pc:align-top pc:text-[18px]">
+                    <span class="block pc:inline-block">궁금한 점이 있으신가요?</span>
+                    <span class="block pc:inline-block">릿치의 문은 늘 열려있습니다.</span>
+                </p>
+            </a>
+        </div>
+
+        <div class="max-xl le container relative text-center pt-[270px] px-[15px] pb-[60px] bg-logoW bg-[length:180px_auto] bg-[center_top_120px] bg-no-repeat pc:text-left pc:pr-[20px] pc:pl-[410px] pc:pt-[80px] pc:bg-[left_70px_top_80px] pc:pb-[40px]">
+
+
+
+            <ul class="border-b-2 border-[#666] mb-[56px] pc:flex pc:justify-between pc:mb-[40px]">
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">회사소개</a>
+                    </h3>
+                    <ul class="mt-[30px] text-[18px] pc:text-[16px]">
+
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">릿치</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">연혁</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">오시는 길</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">장애인기업 안내</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">프로젝트</a>
+                    </h3>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">제품소개</a>
+                    </h3>
+                    <ul class="mt-[30px] text-[18px] pc:text-[16px]">
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">스마트 HACCP</a>
+                        </li>
+
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">픽토리 PICTORI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">문의하기</a>
+                    </h3>
+                </li>
+            </ul>
+
+
+            <address class="not-italic text-[14px] leading-[26px] mb-[42px] pc:text-[16px]">
+                <p>릿치 (Litchi)  대표 조동국</p>
+                <p>
+                    <span class="block pc:inline">제주특별자치도 제주시 진군남 4길 5, 2층</span>
+                    <span class="block pc:inline">(장애인기업종합지원센터, 노형동) </span>
+                </p>
+                <p>
+                    <span class="block pc:inline">TEL. 064-745-0127   FAX. 064-749-8235</span>
+                    <span class="block pc:inline">E-mail. admin@litchi.co.kr</span>
+                </p>
+                <p>
+                    <span class="block pc:inline">사업자등록번호 156-54-00612</span>
+                    <span class="block pc:inline">통신판매번호 2024-제주노형-0123</span>
+                    <span class="block pc:inline">개인정보관리책임자 임산</span>
+                </p>
+            </address>
+
+            <div class="break-keep text-[16px] font-bold mb-[34px] pc:text-[18px]">
+                <a href="" class="block text-white mb-[10px] pc:mb-0 pc:inline-block pc:mr-[20px]">회사소개서 다운로드</a>
+                <a href="" class="block text-white pc:inline-block">개인정보처리방침</a>
+            </div>
+
+            <p class="font-black text-[16px]">© LITCHI. All rights reserved.</p>
+        </div>
+
+    </footer>
+    <!-- E:footer -->
+
+    <!-- javaScript -->
+
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

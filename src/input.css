@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("./font/NotoSansKR-Thin.woff2") format("woff2"),
+    url("./font/NotoSansKR-Thin.woff") format("woff"),
+    url("./font/NotoSansKR-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("./font/NotoSansKR-Light.woff2") format("woff2"),
+    url("./font/NotoSansKR-Light.woff") format("woff"),
+    url("./font/NotoSansKR-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("./font/NotoSansKR-Regular.woff2") format("woff2"),
+    url("./font/NotoSansKR-Regular.woff2") format("woff"),
+    url("./font/NotoSansKR-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("./font/NotoSansKR-Medium.woff2") format("woff2"),
+    url("./font/NotoSansKR-Medium.woff") format("woff"),
+    url("./font/NotoSansKR-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("./font/NotoSansKR-Bold.woff2") format("woff2"),
+    url("./font/NotoSansKR-Bold.woff") format("woff"),
+    url("./font/NotoSansKR-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("./font/NotoSansKR-Black.woff2") format("woff2"),
+    url("./font/NotoSansKR-Black.woff") format("woff"),
+    url("./font/NotoSansKR-Black.otf") format("opentype");
+}
+
+@layer base {
+  html {
+    font-family: "Noto Sans KR", sans-serif;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* .pc\:menu-background::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 109px;
+    height: 360px;
+    background: #fff;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  } */
+}
+
+.notice-pagination {
+  width: auto !important;
+}
+
+.notice-pagination span {
+  width: 11.5px;
+  height: 11.5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+
+.notice-pagination span.swiper-pagination-bullet-active {
+  background: #2b4390;
+}
+
+#saveid:checked + label::before {
+  background-color: #db8d40;
+}
+
+.target input:checked + label {
+  background:#2B4390;
+  border-color:transparent;
+  color:#fff;
+}

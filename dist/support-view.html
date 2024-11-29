@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>청년이어Dream</title>
+
+    <link href="swiper-bundle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="main">
+    <!-- S:skip_navi -->
+    <div class="skip_navi">
+        <a class="sr-only-focusable sr-only" href="#header">메뉴 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#content">본문 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#footer">푸터 바로가기</a>
+    </div>
+    <!-- E:skip_navi -->
+    <!-- S:header -->
+    <header id="header" class="relative z-[800] border-[#d3d3d3]] inline-block w-full border-b border-solid">
+        <div class="max-xl container relative h-[60px] px-[15px] leading-[60px] pc:h-[108px] pc:px-0">
+            <h1
+                class="relative top-[12px] h-[40px] w-[142px] bg-logo bg-cover bg-center bg-no-repeat text-zero pc:top-[30px] pc:h-[46px] pc:w-[163px]">
+                <a href="" class="block h-full">청년이어Dream</a>
+            </h1>
+
+            <button id="menuButton"
+                class="absolute right-[15px] top-[20px] h-[18px] w-[22px] bg-menu bg-cover bg-center bg-no-repeat text-zero pc:right-0 pc:top-[48px]">
+                메뉴토글
+            </button>
+        </div>
+    </header>
+    <!-- E:header -->
+
+    <!-- S:main_menu -->
+
+    <nav id="mainMenu"
+        class="fixed bottom-0 left-0 right-0 top-0 hidden overflow-y-auto pl-[calc(100%-280px)] before:absolute before:bottom-0 before:right-0 before:top-0 before:z-[-1] before:block before:w-[280px] before:bg-white pc:bg-transparent pc:absolute pc:overflow-visible pc:bottom-auto pc:block pc:pl-0 pc:before:hidden z-[900]">
+        <div
+            class="w-[280px] p-[20px] pc:absolute pc:left-[50%] pc:top-[34px] pc:-ml-[400px] pc:w-auto pc:p-0 pc:text-center">
+            <ul>
+                <li class="pc:relative; pc:inline-block pc:align-top pc:min-w-[160px] pc:px-[5px]">
+                    <h3>
+                        <a href="" class="relative font-[#424242] text-[16px] font-bold leading-[40px] pc:block pc:text-[20px] pc:mb-[50px] pc:before:block pc:before:absolute pc:before:left-[50%] pc:before:w-[100px] pc:before:ml-[-50px] pc:before:bottom-[-35px] pc:before:h-[3px] pc:hover:before:bg-[#ED7218] 
+                            
+                            after:content-['N'] after:block after:bg-[#ED7218] after:text-[7px] after:absolute after:-left-[12px] after:-top-[5px]  pc:after:left-auto pc:after:right-[20px] pc:after:top-[5px] after:w-[13px]
+                            after:leading-[13px] after:text-center after:text-white after:rounded-full">지원정책</a>
+                    </h3>
+                    <ul
+                        class="pc:hidden mb-[10px] bg-[#efefef] py-[10px] px-[5px] text-[14px] pc:bg-transparent pc:text-[16px]">
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="font-bold text-[#6D6D6D] tracking-tight">일자리</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">주거</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">공간</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">교육</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f]">금융</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">복지</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">문화</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">참여권리</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pc:relative; pc:inline-block pc:align-top pc:min-w-[160px] pc:px-[5px]">
+                    <h3>
+                        <a class="relative font-[#424242] text-[16px] font-bold leading-[40px] pc:block pc:text-[20px] pc:mb-[50px] pc:before:block pc:before:absolute pc:before:left-[50%] pc:before:w-[100px] pc:before:ml-[-50px] pc:before:bottom-[-35px] pc:before:h-[3px] pc:hover:before:bg-[#ED7218]"
+                            href="">정책추천</a>
+                    </h3>
+                    <ul
+                        class="pc:hidden mb-[10px] bg-[#efefef] py-[10px] px-[5px] text-[14px] pc:bg-transparent pc:text-[16px]">
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">정책추천</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pc:relative; pc:inline-block pc:align-top pc:min-w-[160px] pc:px-[5px]">
+                    <h3>
+                        <a class="relative font-[#424242] text-[16px] font-bold leading-[40px] pc:block pc:text-[20px] pc:mb-[50px] pc:before:block pc:before:absolute pc:before:left-[50%] pc:before:w-[100px] pc:before:ml-[-50px] pc:before:bottom-[-35px] pc:before:h-[3px] pc:hover:before:bg-[#ED7218]"
+                            href="">알려드림</a>
+                    </h3>
+                    <ul
+                        class="pc:hidden mb-[10px] bg-[#efefef] py-[10px] px-[5px] text-[14px] pc:bg-transparent pc:text-[16px]">
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">공지사항</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">채용정보</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">행사/교육</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">보도자료</a>
+                        </li>
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">지역소식</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pc:relative; pc:inline-block pc:align-top pc:min-w-[160px] pc:px-[5px]">
+                    <h3>
+                        <a class="relative font-[#424242] text-[16px] font-bold leading-[40px] pc:block pc:text-[20px] pc:mb-[50px] pc:before:block pc:before:absolute pc:before:left-[50%] pc:before:w-[100px] pc:before:ml-[-50px] pc:before:bottom-[-35px] pc:before:h-[3px] pc:hover:before:bg-[#ED7218]"
+                            href="">청년이어드림</a>
+                    </h3>
+                    <ul
+                        class="pc:hidden mb-[10px] bg-[#efefef] py-[10px] px-[5px] text-[14px] pc:bg-transparent pc:text-[16px]">
+                        <li class="mr-[10px] inline-block pc:m-0 pc:block pc:mb-[6px]">
+                            <a href="" class="text-[#7f7f7f] tracking-tight">청년이어드림이란?</a>
+                        </li>
+                    </ul>
+                    </h3>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w-[280px] p-[20px] pc:absolute pc:left-[50%] pc:top-[40px] pc:ml-[300px] pc:w-auto pc:p-0">
+            <a href=""
+                class="mb-[10px] block bg-[#ED7218] p-[5px] text-center text-[13px] font-bold leading-[34px] text-[#fff] pc:inline-block pc:p-0 pc:px-[20px] pc:leading-[30px] pc:mb-0 pc:text-[18px]">상담신청</a>
+            <button id="searchOpen"
+                class="bg-search block bg-[length:auto_18px] bg-left bg-no-repeat pl-[26px] text-[13px] leading-[30px] text-[#666] pc:inline-block pc:text-zero pc:w-[18px] pc:h-[18px] pc:ml-[20px]">검색</button>
+            <a href=""
+                class="bg-alert block bg-[length:auto_18px] bg-left bg-no-repeat pl-[26px] text-[13px] leading-[30px] text-[#666] pc:inline-block pc:text-zero pc:w-[18px] pc:h-[18px] pc:ml-[20px] relative before:content-['1'] before:block before:bg-[#ED7218] before:text-[7px] before:absolute before:-left-[5px] before:top-[5px] before:w-[12px]
+                before:leading-[12px] before:text-center before:text-white before:rounded-full pc:before:left-auto pc:before:right-[5px] pc:before:-top-[5px]">알림</a>
+            <a href=""
+                class="bg-user block bg-[length:auto_18px] bg-left bg-no-repeat pl-[26px] text-[13px] leading-[30px] text-[#666] pc:inline-block pc:text-zero pc:w-[18px] pc:h-[18px] pc:ml-[20px]">마이페이지</a>
+        </div>
+
+        <button id="menuClose"
+            class="absolute bottom-0 left-0 top-0 w-[calc(100%-280px)] bg-[rgba(0,0,0,.3)] pc:hidden text-zero">
+            메뉴닫기
+        </button>
+    </nav>
+    <!-- E:main_menu -->
+
+    <!-- S:search -->
+    <article id="search"
+        class="hidden fixed left-0 right-0 top-0 bottom-0 z-[1000] bg-[rgba(0,0,0,.4)] pc:bg-white pc:top-[109px] pc:bottom-auto pc:shadow-[0_8px_16px_rgba(0,0,0,.1)]">
+        <div
+            class="absolute left-[20px] right-[20px] top-[50%] -translate-y-[50%] bg-white p-[20px] rounded-[20px] shadow-sm pc:static pc:translate-y-0 pc:container pc:max-w-[660px] pc:py-[40px]">
+
+            <button id="searchClose"
+                class="absolute left-[50%] bottom-[-80px] w-[60px] h-[60px] bg-close bg-no-repeat bg-center translate-x-[-50%] bg-white text-zero rounded-full pc:hidden">닫기</button>
+
+            <fieldset class="border-b-[3px] border-[#DB8D40] text-zero mb-[20px] pc:border-b-[6px] pc:mb-[32px]">
+                <legend class="sr-only">검색</legend>
+
+                <input type="text"
+                    class="w-[calc(100%-50px)] h-[50px] text-[16px] align-top pc:text-[20px] pc:h-[60px] pc:w-[calc(100%-60px)] outline-none"
+                    placeholder="검색어를 입력해 주세요.">
+                <button
+                    class="w-[50px] h-[50px] bg-search bg-no-repeat bg-center bg-[length:30px_30px] align-top pc:w-[60px] pc:h-[60px]">검색</button>
+            </fieldset>
+
+            <strong class="font-bold text-[17px] mb-[10px] pc:mb-[28px]">청년이어드림이 추천해드림!</strong>
+            <div
+                class="text-center py-[20px] text-zero pc:pl-[280px] pc:bg-searchbg pc:bg-no-repeat pc:bg-[left_top_20px] pc:bg-[length:230px_auto] pc:min-h-[200px]">
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#청년도약계좌</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#주거비지원</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#청년임대주택</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#장학금지원사업</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#귀농청년지원</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#해외취창업지원</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#교통비지원</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#창업지원</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#내일배움카드</a>
+                <a href="" class="inline-block text-[12px] border border-[#8F8F8F] leading-[28px] px-[10px] m-[5px] text-[#666] font-bold
+                rounded-[28px]">#이주청년웰컴카드</a>
+            </div>
+        </div>
+    </article>
+    <!-- E:search -->
+
+
+
+    <!-- S:mainContent -->
+    <div id="content" class="sub">
+
+        <article class="max-xl container relative px-[10px] py-[30px] pc:pt-[34px] pc:pb-[20px] pc:px-0 text-center">
+
+                <div class="text-center pc:text-right">
+                    <button class="pl-[18px] pc:pl-[24px] leading-[24px] align-top bg-hart bg-no-repeat bg-left bg-[14px_auto] pc:bg-[18px_auto] text-[14px] text-[#747474] pc:text-[18px] mx-[5px]">관심</button>
+                    <button class="pl-[18px] pc:pl-[24px] leading-[24px] align-top bg-hart bg-no-repeat bg-left bg-[14px_auto] pc:bg-[18px_auto] text-[14px] text-[#747474] pc:text-[18px] mx-[5px] mr-[20px]">인쇄</button>
+                    <button class="w-[24px] h-[24px] bg-twitter align-top bg-[#28A8E0] bg-no-repeat rounded-full text-zero bg-center bg-[14px_auto] mx-[5px]">트위터</button>
+                    <button class="w-[24px] h-[24px] bg-facebook align-top bg-[#445D98] bg-no-repeat rounded-full text-zero bg-center bg-[auto_14px] mx-[5px]">페이스북</button>
+                    <button class="w-[24px] h-[24px] bg-kakao align-top bg-[#FFE600] bg-no-repeat rounded-full text-zero bg-center bg-[14px_auto] mx-[5px]">카카오톡</button>
+                    <button class="w-[24px] h-[24px] bg-link align-top bg-[#CBCBCB] bg-no-repeat rounded-full text-zero bg-center bg-[auto_14px] mx-[5px]">링크복사</button>
+                </div>
+
+        </article>
+
+
+
+        <section class="max-xl container relative px-[15px] pc:px-0">
+            
+            <div class="text-center pc:text-left border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <span class="inline-block text-[14px] text-[#fff] bg-[#2B4390] leading-[27px] border border-transparent px-[10px] mr-[5px]">문화</span>
+                <span class="inline-block text-[14px] text-[#fff] bg-[#2B4390] leading-[27px] border border-transparent px-[10px] mr-[5px]">복지</span>
+                <span class="inline-block text-[14px] text-[#565656] bg-[#fff] leading-[27px] border border-[#565656] px-[10px] mr-[5px]">마감</span>
+                <h4 class="mt-[10px] break-keep mb-[20px]">
+                    <small class="block pc:inline-block text-[20px] pc:text-[34px] font-bold text-[#2B4390]">[제주청년센터]</small>
+                    <span class="text-[20px] pc:text-[34px] font-bold text-[#565656]">청년의품격 : 취업사진촬영 서비스</span>
+                </h4>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">구직활동 준비중인 제주지역 청년들을 대상으로 무료 취업사진 촬영 서비스 지원</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-calendar bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    신청기간
+                </h5>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">23. 10. 4.(월) 09:00 ~ 23. 10. 17.(화) 18:00</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-user bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    신청자격
+                </h5>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍지원대상</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 나이 : 만 19~34세 청년</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡병역복무기간 6년까지 인정</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 개인소득 : 총 급여액 7,500만원 이하</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡종합소득 : 총 6,300만원 이하</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 가구소득 : 가구원 중위소득* 180% 이하</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡2022년 1인 기준 월소득 3,500,661원 이하</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍제외대상</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 소득이 없거나 국세청을 통해 소득을 증명할 수 없는 자</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 과거 3년 중 금융소득종합과세* 대상자</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 청년희망적금 가입자</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡적금 만기 또는 중도해지 후 가입 가능</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-doc bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    지원내용
+                </h5>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 정부지원금 매칭(최대 월 2.4만원)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 기본금리+소득 우대금리+은행별 우대금리 적용(최대 6.5%)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 비과세* 상품(이자소득의 15.4% 해당하는 세금 면제)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡은행별 우대금리 비교 등 자세한 내용은 아래 '공고확인' 링크 참고</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-detail bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    지원상세
+                </h5>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 정부지원금 매칭(최대 월 2.4만원)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 기본금리+소득 우대금리+은행별 우대금리 적용(최대 6.5%)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 비과세* 상품(이자소득의 15.4% 해당하는 세금 면제)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡은행별 우대금리 비교 등 자세한 내용은 아래 '공고확인' 링크 참고</p>
+
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍상품소개</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 매월 70만원 내에서 자유롭게 적립</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 적립기간 5년 만기 후 일시 지급</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍신청기간</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 11월 : 11.1.(수)~11.17.(금)</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡월별로 접수기간이 따로 정해져 있으니 확인 필요</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍신청방법</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 11개 취급은행 앱을 통해 비대면 신청</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡농협, 신한, 우리, 하나, 기업, 국민, 부산, 광주, 전북, 경남, 대구은행</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡앱 신청으로 간단한 가입대상여부 확인 가능</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">📍제출서류</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">- 없음</p>
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">💡소득 확인 시 가구원 동의 필요할 수 있음</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-call bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    문의처
+                </h5>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">서민금융진흥원 / 1397</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-file bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    첨부파일
+                </h5>
+
+                <a herf="" class="px-[24px] text-[#2B4390] break-keep text-[14px] pc:text-[17px]">230609 (보도자료) 청년도약계좌 협약식 및 간담회 개최.hwp</a>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-address bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    주소
+                </h5>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">제주특별자치도 제주시 중앙로 53</p>
+
+                <div id="map" class="w-full max-w-[726px] h-[220px] pc:h-[344px] my-[20px] pc:mx-[24px] border border-[#d3d3d3]"></div>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-hart2 bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    이 지원정책에 관심을 가지는 청년 (15명)  
+                </h5>
+
+                <p class="p-[20px] pc:p-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px] bg-[#EBEBEB]">제주특별자치도 제주시 중앙로 53</p>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="font-bold text-[18px] pl-[30px] mb-[10px] bg-reply bg-no-repeat bg-left bg-[22px_auto] pc:text-[20px] text-[#2B4390]">
+                    댓글
+                </h5>
+
+                <div class="text-zero">
+                    <textarea class="w-[calc(100%-110px)] pc:w-[calc(100%-170px)] h-[150px] border border-[#CBCBCB] text-[14px] pc:text-[18px] p-[20px]" placeholder="해당 정보에 대한 의견, 경험을 공유해주세요!"></textarea>
+                    <button class="text-[18px] pc:text-[20px] text-[#2B4390] w-[100px] h-[150px] pc:w-[150px] ml-[10px] pc:ml-[20px] border-2 border-[#2B4390] align-top">등록</button>
+                </div>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="inline-block mr-[10px] font-bold text-[16px] mb-[16px] pc:text-[18px] text-[#424242]">
+                    Mi****
+                </h5>
+                <i class="not-italic text-[13px] pc:text-[16px] text-[#747474]">2023. 10. 13</i>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">
+                    청년의 품격이라니 정말 품격있는 정책이네요..
+
+                </p>
+
+                <div class="text-right mt-[20px] text-[#808080] break-keep text-[14px] pc:text-[16px]"">
+                    <button class="bg-like bg-no-repeat bg-left bg-[auto_20px] pl-[26px] mr-[10px]">좋아요 <span>4</span></button>
+                    <button class="bg-like bg-no-repeat bg-left bg-[auto_20px] pl-[26px] mr-[10px]">싫어요 <span>4</span></button>
+                    <button>답글</button>
+                </div>
+            </div>
+            
+            <div class="border-b border-b-[#d3d3d3] pb-[20px] mb-[20px] pc:px-[34px] pc:pb-[40px] pc:mb-[40px]">
+                <h5 class="inline-block mr-[10px] font-bold text-[16px] mb-[16px] pc:text-[18px] text-[#424242]">
+                    Mi****
+                </h5>
+                <i class="not-italic text-[13px] pc:text-[16px] text-[#747474]">2023. 10. 13</i>
+
+                <p class="pc:px-[24px] text-[#808080] break-keep text-[14px] pc:text-[17px]">
+                    청년의 품격이라니 정말 품격있는 정책이네요..
+
+                </p>
+
+                <div class="text-right mt-[20px] text-[#808080] break-keep text-[14px] pc:text-[16px]"">
+                    <button class="bg-like bg-no-repeat bg-left bg-[auto_20px] pl-[26px] mr-[10px]">좋아요 <span>4</span></button>
+                    <button class="bg-like bg-no-repeat bg-left bg-[auto_20px] pl-[26px] mr-[10px]">싫어요 <span>4</span></button>
+                    <button>답글</button>
+                </div>
+            </div>
+
+
+            <div class="text-center mb-[40px] pc:mb-[60px] text-zero">
+                <a href="" class="inline-block mx-[3px] w-[110px] pc:w-[130px] text-[14px] pc:text-[17px] leading-[44px] border border-transparent font-bold text-white bg-[#2B4390]">리스트</a>
+                <a href="" class="inline-block mx-[3px] w-[110px] pc:w-[130px] text-[14px] pc:text-[17px] leading-[44px] border border-[#2B4390] font-bold text-[#2B4390] bg-[#fff]">공고확인</a>
+            </div>
+
+
+
+
+
+
+        </section>
+
+
+
+
+    </div>
+    <!-- E:mainContent -->
+
+    <!-- S:footer -->
+    <footer id=" footer" class="bg-[#6A6D7E]">
+
+        <div
+            class="max-xl le container relative px-[15px] py-[20px] mb-[20px] pc:px-0 text-center pc:text-left pc:pb-[40px]">
+
+            <div class="break-keep pc:border-b border-[rgba(255,255,255,.3)] pb-[10px] mb-[55px]">
+                <a href=""
+                    class="block text-[#fff] text-[13px] border-[1px] border-[#fff] leading-[30px] mb-[10px] pc:inline-block pc:border-0 pc:leading-none pc:text-[14px] pc:after:inline-block pc:after:content-['|'] pc:after:text-[12px] pc:after:px-[8px] pc:after:align-top">이메일
+                    무단 수집
+                    거부</a>
+                <a href=""
+                    class="block text-[#fff] text-[13px] border-[1px] border-[#fff] leading-[30px] mb-[10px] pc:inline-block pc:border-0 pc:leading-none pc:text-[14px] pc:after:inline-block pc:after:content-['|'] pc:after:text-[12px] pc:after:px-[8px] pc:after:align-top">이용약관</a>
+                <a href=""
+                    class="block text-[#fff] text-[13px] border-[1px] border-[#fff] leading-[30px] mb-[10px] pc:inline-block pc:border-0 pc:leading-none pc:text-[14px] pc:after:inline-block pc:after:content-['|'] pc:after:text-[12px] pc:after:px-[8px] pc:after:align-top">개인정보처리방침</a>
+                <a href=""
+                    class="block text-[#fff] text-[13px] border-[1px] border-[#fff] leading-[30px] mb-[10px] pc:inline-block pc:border-0 pc:leading-none pc:text-[14px]">오시는길</a>
+            </div>
+
+            <address
+                class="not-italic text-[#C9C9C9] break-keep pc:pl-[204px] pc:bg-flogo pc:bg-left-top pc:bg-no-repeat ">
+                <p>제주청년센터 ㅣ 센터장 : 정지수 ㅣ 제주특별자치도 제주시 중앙로 53, 5-7층</p>
+                <p>전화번호 : 064-757-9400 ㅣ 팩스 : 064-757-9401</p>
+                <p>개인정보관리자 : 정다운ㅣ 고유번호 </p>
+                <p>Copyright ⓒ 2023 제주청년센터 All Rights Reserved.
+            </address>
+
+        </div>
+
+    </footer>
+    <!-- E:footer -->
+
+    <!-- javaScript -->
+
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
