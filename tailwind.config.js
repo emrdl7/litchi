@@ -49,6 +49,8 @@ module.exports = {
         enter2: "url('./image/icon-enter2.svg')",
         right1: "url('./image/icon-right.svg')",
         download: "url('./image/icon-download.svg')",
+        link: "url('./image/icon-link.svg')",
+        location: "url('./image/icon-location.svg')",
 
         home: "url('./image/icon-home.svg')",
 
@@ -67,6 +69,8 @@ module.exports = {
         flutter: "url('./image/icon-flutter.svg')",
 
         intro1: "url('./image/img-intro-bg1.png')",
+        intro2: "url('./image/img-intro-bg2.jpg')",
+        introimg: "url('./image/img-intro.png')",
 
       },
     },

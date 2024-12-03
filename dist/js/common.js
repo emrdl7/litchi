@@ -178,6 +178,33 @@ const swiper3 = new Swiper(".skil-swiper", {
 });
 
 
+
+
+const swiper4 = new Swiper(".intro-swiper", {
+  speed: 1000,
+  spaceBetween: 10,
+  slidesPerView: "auto",
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+
+  breakpoints: {
+    1200: {
+      spaceBetween: 90,
+    },
+  },
+
+  pagination: {
+    el: ".intro-pagination",
+  },
+  
+});
+
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".swiper3-button-pause")?.addEventListener("click", function() {
     swiper3.autoplay.stop();

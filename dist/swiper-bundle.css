@@ -17,7 +17,7 @@
     font-style: normal;
   }
   :root {
-    --swiper-theme-color: #007aff;
+    --swiper-theme-color: #fff;
   }
   .swiper {
     margin-left: auto;
@@ -302,7 +302,7 @@
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
     display: inline-block;
     border-radius: 50%;
-    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    background: var(--swiper-pagination-bullet-inactive-color, #fff);
     opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
   }
   button.swiper-pagination-bullet {
@@ -331,7 +331,7 @@
   }
   .swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet,
   .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: var(--swiper-pagination-bullet-vertical-gap, 6px) 0;
+    margin: var(--swiper-pagination-bullet-vertical-gap, 10px) 0;
     display: block;
   }
   .swiper-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
