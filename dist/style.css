@@ -3191,6 +3191,10 @@ html {
     height: 890px;
   }
 
+  .pc\:h-\[78px\] {
+    height: 78px;
+  }
+
   .pc\:min-h-\[1260px\] {
     min-height: 1260px;
   }
