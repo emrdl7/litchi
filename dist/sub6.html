@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>릿치 Litchi</title>
+
+    <link href="swiper-bundle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="main ">
+    <!-- S:skip_navi -->
+    <div class="skip_navi">
+        <a class="sr-only-focusable sr-only" href="#header">메뉴 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#content">본문 바로가기</a>
+        <a class="sr-only-focusable sr-only" href="#footer">푸터 바로가기</a>
+    </div>
+    <!-- E:skip_navi -->
+    <!-- S:header -->
+    <header id="header" class="relative z-[800] inline-block w-full">
+        <div class="max-xl container relative h-[60px] px-[15px] leading-[60px] pc:h-[110px] pc:px-0">
+            <h1
+                class="relative top-[19px] left-0 w-[100px]  h-[21.5px] bg-logo bg-cover bg-center bg-no-repeat text-zero pc:h-[32.68px] pc:w-[152px] pc:top-[39px] pc:left-[20px]">
+                <a href="" class="block h-full">릿치</a>
+            </h1>
+
+            <div class="absolute right-[15px] top-[8px] pc:top-[30px]">
+
+                <button id="langButton" class="h-[30px] w-[30px] mr-[10px] bg-lang bg-cover bg-center bg-no-repeat text-zero">
+                    언어토글
+                </button>
+
+                <div id="language" class="hidden absolute left-0 top-[55px] bg-white drop-shadow-md leading-[30px] py-[10px] px-[20px] ml-[15px] translate-x-[-50%] rounded-[10px] before:block before:border-[10px] before:border-transparent before:border-b-[#fff] before:absolute before:left-[50%] before:translate-x-[-50%] before:top-[-20px]">
+                    <a href="" class="block">KOR</a>
+                    <a href="" class="block">ENG</a>
+                </div>
+    
+                <button id="menuButton" class="h-[30px] w-[30px] bg-menu bg-cover bg-center bg-no-repeat text-zero pc:hidden">
+                    메뉴토글
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <!-- E:header -->
+
+    <!-- S:main_menu -->
+
+    <nav id="mainMenu" class="fixed z-[1000] bottom-0 left-0 right-0 top-0 hidden overflow-y-auto px-[35px] pt-[100px] pb-[20px] bg-white pc:bg-transparent pc:absolute pc:overflow-visible pc:left-[50%] pc:top-[44px] pc:w-auto pc:right-auto pc:bottom-auto pc:block pc:p-0 pc:translate-x-[-330px]">
+
+        <h2 class="absolute text-[#222] font-bold text-[26px] left-[15px] top-[20px] pc:hidden">릿치</h2>
+
+            <ul class="text-nowrap">
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444] pc:after:inline-block pc:after:ml-[10px] pc:after:bg-down pc:after:w-[15px] pc:after:h-[15px] pc:after:bg-[length:100% auto] pc:after:bg-no-repeat pc:after:bg-center">회사소개</a>
+                    </h3>
+                    <ul class="mt-[30px] pl-[20px] text-[16px] pc:hidden pc:p-0 pc:absolute pc:left-[50%] pc:min-w-[160px] pc:translate-x-[-50%] pc:bg-[rgba(255,255,255,.8)] pc:pt-[70px] pc:pb-[20px] pc:mt-0 pc:top-[-20px] pc:text-[16px] pc:drop-shadow-xl rounded-md pc:text-center">
+
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">릿치</a>
+                        </li>
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">연혁</a>
+                        </li>
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">오시는 길</a>
+                        </li>
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">장애인기업 안내</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444]">프로젝트</a>
+                    </h3>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444] pc:after:inline-block pc:after:ml-[10px] pc:after:bg-down pc:after:w-[15px] pc:after:h-[15px] pc:after:bg-[length:100% auto] pc:after:bg-no-repeat pc:after:bg-center">제품소개</a>
+                    </h3>
+                    <ul class="mt-[30px] pl-[20px] text-[16px] pc:hidden pc:p-0 pc:absolute pc:left-[50%] pc:min-w-[160px] pc:translate-x-[-50%] pc:bg-[rgba(255,255,255,.8)] pc:pt-[70px] pc:pb-[20px] pc:mt-0 pc:top-[-20px] pc:text-[16px] pc:drop-shadow-xl rounded-md pc:text-center">
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">스마트 HACCP</a>
+                        </li>
+
+                        <li class="mt-[18px] pc:m-0 pc:mb-[6px]">
+                            <a href="" class="text-[#222] tracking-tight">픽토리 PICTORI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[38px] pc:relative pc:inline-block pc:align-top pc:mr-[60px] pc:px-[5px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-[#222] text-[22px] font-bold pc:block pc:hover:text-[#444]">문의하기</a>
+                    </h3>
+                </li>
+            </ul>
+
+
+        <button id="menuClose"
+            class="absolute right-[15px] top-[15px] w-[30px] h-[30px] bg-close pc:hidden text-zero">
+            메뉴닫기
+        </button>
+    </nav>
+    <!-- E:main_menu -->
+
+
+
+    <!-- S:mainContent -->
+    <div id="content" class="main ">
+
+
+        <section class="max-xl relative bg-[#F4F4F4]">
+            <div class="container px-[15px] pc:px-[20px] relative h-[54px] pc:h-[78px]">
+
+                
+                <ul class="leading-[54px] whitespace-nowrap overflow-y-auto text-[16px] pc:leading-[78px] pc:text-[20px]">
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-[#000] text-[#222] font-bold">스마트 HACCP</a>
+                    </li>
+                    <li class="inline-block mr-[20px] pc:mr-[30px]">
+                        <a href="" class="block relative after:block after:absolute after:left-0 after:right-0 after:bottom-0  after:h-[4px] after:bg-transparent text-[#777] font-medium">픽토리 PICTORY</a>
+                    </li>
+                </ul>
+
+                <div class="hidden pc:block absolute right-[20px] top-0 leading-[78px] pl-[34px]">
+                    <a href="" class="block absolute left-0 top-[50%] translate-y-[-50%] text-zero w-[24px] h-[24px] bg-home bg-[100%_auto] bg-center bg-no-repeat ">홈</a>
+                    <a href="" class="inline-block text-[#777] font-medium pr-[30px] bg-right1 bg-[7px_auto] bg-[right_8px_center] bg-no-repeat ">제품소개</a>
+                    <strong class="inline-block text-[#777] font-medium">스마트 HACCP</strong>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        
+
+
+        <section id="contents" class="max-xl relative pt-[70px] pb-[70px] pc:pt-[100px] pc:pb-[150px]">
+
+            <div class="container px-[15px] pc:px-[20px]">
+
+                <h3 class="mb-[50px] pc:mb-[80px]">
+                    <small class="block text-mainBlue text-[18px] font-medium pc:text-[22px]">Solution</small>
+                    <span class="text-[#000] text-[38px] font-black pc:text-[60px] break-keep">스마트 HACCP AI 쇼핑몰 빌더.</span>
+                </h3>
+
+                
+                <div class="relative mt-[176px] mb-[70px] pc:h-[560px]">
+
+                    <div class="relative p-[20px] pt-[126px] border-[1px] border-[#ccc] bg-[#efefef] mb-[132px] pc:w-[360px] pc:absolute pc:top-0 pc:left-[50%] pc:translate-x-[-50%]">
+                        <strong class="absolute left-[40px] right-[40px] top-0 translate-y-[-50%] leading-[180px] text-center bg-[#004C87] text-white shadow-haccp text-[18px] font-bold pc:text-[22px]">Smart HACCP MES</strong>
+
+                        <ul>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">자동 센서로 계측된 위해요소 모니터링 데이터 실시간 관리</li>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">식품안전관리 데이터 아카이빙 및 분석</li>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">CCP 관리 사항 등 수기 기록 관리 문서 작성 자동화</li>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">제조 공정 및 재고 관리를 통한 AI 쇼핑몰 연계</li>
+                        </ul>
+                    </div>
+
+                    <div class="relative p-[20px] pt-[126px] border-[1px] border-[#ccc] bg-[#efefef] mb-[132px] pc:w-[360px] pc:absolute pc:top-[96px] pc:left-0">
+                        <strong class="absolute left-[40px] right-[40px] top-0 translate-y-[-50%] leading-[180px] text-center bg-mainBlue text-white shadow-haccp text-[18px] font-bold pc:text-[22px]">HACCP IoT KIT</strong>
+
+                        <ul>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">온/습도 측정기, 금속검출기 데이터 수집 카메라, 센서, 게이트웨이 등으로 구성</li>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">공장 재구축 없이 저렴한 비용으로 간단히 설치 및 활용</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="relative p-[20px] pt-[126px] border-[1px] border-[#ccc] bg-[#efefef] pc:absolute pc:w-[360px] pc:top-[96px] pc:right-0">
+                        <strong class="absolute left-[40px] right-[40px] top-0 translate-y-[-50%] leading-[180px] text-center bg-mainBlue text-white shadow-haccp text-[18px] font-bold pc:text-[22px]">AI Website Builder</strong>
+
+                        <ul>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">실시간 재고 현황 및 선입선출 데이터 연계로 타임세일 및 이벤트 등 마케팅 강화</li>
+                            <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">상품 소개, 이벤트 등 제품 판매 촉진 콘텐츠 자동 생성 등</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+                                
+            <div class="relative overflow-hidden py-[100px] bg-haccpbg bg-cover before:block before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0 before:bg-[rgba(255,255,255,0.7)] before:backdrop-blur-md pc:py-[240px]">
+
+
+                <div class="container relative z-10 px-[15px] pc:px-[20px] pc:pl-[163px]">
+
+                    <h4 class="relative text-mainBlue mb-[10px] pc:mb-[34px]">
+                        <small class="block font-black text-[42px] pc:text-[68px] pc:absolute pc:left-[-140px] pc:leading-[1] pc:top-0">01</small>
+                        <span class="text-[18px] font-bold pc:text-[36px]">소규모 HACCP 업체 맞춤형 비용 절감 솔루션</span>
+                    </h4>
+                    <p class="font-medium mb-[68px] pc:text-[26px] leading-[1.6]">
+                        MES와 AI 쇼핑몰 빌더의 통합 시스템으로, 저비용으로 식품 안전 관리와 온라인 판매를 동시에 관리할 수 있어 운영 부담을 줄여줍니다.
+                    </p>
+
+                    <h4 class="relative text-mainBlue mb-[10px] pc:mb-[34px]">
+                        <small class="block font-black text-[42px] pc:text-[68px] pc:absolute pc:left-[-140px] pc:leading-[1] pc:top-0">02</small>
+                        <span class="text-[18px] font-bold pc:text-[36px]">실시간 데이터 관리로 업무 효율성 향상</span>
+                    </h4>
+                    <p class="font-medium mb-[68px] pc:text-[26px] leading-[1.6]">
+                        수작업에서 벗어나 자동화된 실시간 데이터 관리가 가능해지며, CCP 모니터링과 공정 데이터가 즉시 업데이트되어 신속한 대응이 가능합니다.
+                    </p>
+
+                    <h4 class="relative text-mainBlue mb-[10px] pc:mb-[34px]">
+                        <small class="block font-black text-[42px] pc:text-[68px] pc:absolute pc:left-[-140px] pc:leading-[1] pc:top-0">03</small>
+                        <span class="text-[18px] font-bold pc:text-[36px]">재고와 판매의 실시간 연계</span>
+                    </h4>
+                    <p class="font-medium pc:text-[26px] leading-[1.6]">
+                        재고 상태가 자동으로 쇼핑몰과 연동되어 실시간 재고 및 판매 관리가 가능, 판매 촉진을 위한 이벤트 조정도 즉각적으로 이루어집니다.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="container px-[15px] pc:px-[20px] ">
+
+                <div class="relative mt-[100px]">
+
+                    <h4 class="font-black text-center text-[36px] mb-[50px] pc:text-[46px] pc:mb-[100px]">제품의 특징</h4>
+
+                    <ul>
+
+                        <li class="relative mb-[80px] pc:pl-[666px] min-h-[380px] pc:mb-[130px] pc:pt-[42px]">
+                            <p class="mb-[30px] pc:absolute pc:left-0 pc:top-0 pc:w-570px h-[380px]"><img src="image/img-haccp1.png" class="w-[100%]" alt=""></p>
+
+                            <strong class="block text-[22px] font-bold break-keep text-mainBlue mb-[30px] pc:text-[36px] pc:mb-[50px]">
+                                IoT KIT를 활용한 위해요소 자동관리로 업무 효율성 향상
+                            </strong>
+                            <ul>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">공장 재구축 없이 저렴한 비용으로 모니터링 설치가가능합니다.</li>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">IoT 센서로 식품안전 관리 데이터를 실시간으로 측정하여 전달합니다.</li>
+                            </ul>
+                        </li>
+
+                        <li class="relative mb-[80px] pc:pr-[666px] min-h-[380px] pc:mb-[130px] pc:pt-[42px]">
+                            <p class="mb-[30px] pc:absolute pc:right-0 pc:top-0 pc:w-570px h-[380px]"><img src="image/img-haccp2.png" class="w-[100%]" alt=""></p>
+
+                            <strong class="block text-[22px] font-bold break-keep text-mainBlue mb-[30px] pc:text-[36px] pc:mb-[50px]">
+                                HACCP 관리 디지털화로 식품위생안전 신뢰도 향상
+                            </strong>
+                            <ul>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">방대한 양의 수기문서 작성 시간이 대폭 축소 됩니다.</li>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">실시간 데이터 아카이빙으로 판매 식품의 위생안전 신뢰도가 향상됩니다.</li>
+                            </ul>
+                        </li>
+
+                        <li class="relative mb-[80px] pc:pl-[666px] min-h-[380px] pc:mb-[130px] pc:pt-[42px]">
+                            <p class="mb-[30px] pc:absolute pc:left-0 pc:top-0 pc:w-570px h-[380px]"><img src="image/img-haccp3.png" class="w-[100%]" alt=""></p>
+
+                            <strong class="block text-[22px] font-bold break-keep text-mainBlue mb-[30px] pc:text-[36px] pc:mb-[50px]">
+                                편리한 HACCP 관리 스마트한 전자결재
+                            </strong>
+                            <ul>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">Webapp 형식으로 언제 어디서든 자유롭게 HACCP 관리가 가능합니다.</li>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">CCP 관리, 선행요건 보고서 등의 관리문서를 전자결재로 빠르고 정확하게 관리합니다.</li>
+                            </ul>
+                        </li>
+
+                        <li class="relative mb-[80px] pc:pr-[666px] min-h-[380px] pc:pt-[42px] pc:mb-[130px]">
+                            <p class="mb-[30px] pc:absolute pc:right-0 pc:top-0 pc:w-570px h-[380px]"><img src="image/img-haccp4.png" class="w-[100%]" alt=""></p>
+
+                            <strong class="block text-[22px] font-bold break-keep text-mainBlue mb-[30px] pc:text-[36px] pc:mb-[50px]">
+                                AI 웹사이트 빌더로 간편하게 온라인 판로 확보
+                            </strong>
+                            <ul>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">AI 기능으로 제품 콘셉트에 걸맞는 맞춤형 온라인 쇼핑몰을 구축합니다.</li>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">제공되는 템플릿을 활용하여 편리하게 생성하고 관리합니다.</li>
+                            </ul>
+                        </li>
+
+                        <li class="relative pc:pl-[666px] min-h-[380px] pc:pt-[42px]">
+                            <p class="mb-[30px] pc:absolute pc:left-0 pc:top-0 pc:w-570px h-[380px]"><img src="image/img-haccp5.png" class="w-[100%]" alt=""></p>
+
+                            <strong class="block text-[22px] font-bold break-keep text-mainBlue mb-[30px] pc:text-[36px] pc:mb-[50px]">
+                                스마트 HACCP 시스템 연계로 실시간 타겟 마케팅 강화
+                            </strong>
+                            <ul>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">실시간 재고 현황과 제품 선입선출 데이터를 연계한 실시간 온라인 마케팅이 가능합니다.</li>
+                                <li class="relative text-[16px] font-medium text-[#555] mb-[20px] break-keep pl-[20px] before:block before:absolute before:left-0 before:top-[10px] before:w-[5px] before:h-[5px] before:bg-mainBlue pc:text-[22px] pc:before:top-[14px]">판매 상품 키워드로 생성된 홍보 콘텐츠를 활용하여 판매를 촉진합니다.</li>
+                            </ul>
+                        </li>
+
+
+
+
+                    </ul>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+    </div>
+    <!-- E:mainContent -->
+
+    <!-- S:footer -->
+    <footer id=" footer" class="bg-[#222] text-white pc:pt-[50px] pc:pb-[100px]">
+
+        <div class="max-xl le container relative bg-gradient-to-b from-graFrom2 to-graTo2 pc:rounded-[300px]">
+            <a href="" class="block px-[15px] pt-[50px] pb-[115px] text-center pc:text-left bg-enter2 bg-[length:44px_auto] bg-[center_bottom_40px] bg-no-repeat pc:align-top pc:leading-[150px] pc:py-0 pc:px-[78px] pc:bg-[right_78px_center]">
+                <strong class="block font-black text-[26px] mb-[30px] pc:inline-block pc:mb-0 pc:text-[38px] pc:mr-[56px]">문의하기</strong>
+
+                <p class="text-[16px] font-medium pc:inline-block pc:align-top pc:text-[18px]">
+                    <span class="block pc:inline-block">궁금한 점이 있으신가요?</span>
+                    <span class="block pc:inline-block">릿치의 문은 늘 열려있습니다.</span>
+                </p>
+            </a>
+        </div>
+
+        <div class="max-xl le container relative text-center pt-[270px] px-[15px] pb-[60px] bg-logoW bg-[length:180px_auto] bg-[center_top_120px] bg-no-repeat pc:text-left pc:pr-[20px] pc:pl-[410px] pc:pt-[80px] pc:bg-[left_70px_top_80px] pc:pb-[40px]">
+
+
+
+            <ul class="border-b-2 border-[#666] mb-[56px] pc:flex pc:justify-between pc:mb-[40px]">
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">회사소개</a>
+                    </h3>
+                    <ul class="mt-[30px] text-[18px] pc:text-[16px]">
+
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">릿치</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">연혁</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">오시는 길</a>
+                        </li>
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">장애인기업 안내</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">프로젝트</a>
+                    </h3>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">제품소개</a>
+                    </h3>
+                    <ul class="mt-[30px] text-[18px] pc:text-[16px]">
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">스마트 HACCP</a>
+                        </li>
+
+                        <li class="mt-[12px] pc:m-0 pc:block pc:mb-[10px]">
+                            <a href="" class="text-white">픽토리 PICTORI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pb-[56px] pc:relative pc:flex-grow pc:pb-[40px]">
+                    <h3 class="pc:relative pc:z-[800]">
+                        <a href="" class="relative leading-none text-white text-[20px] font-bold">문의하기</a>
+                    </h3>
+                </li>
+            </ul>
+
+
+            <address class="not-italic text-[14px] leading-[26px] mb-[42px] pc:text-[16px]">
+                <p>릿치 (Litchi)  대표 조동국</p>
+                <p>
+                    <span class="block pc:inline">제주특별자치도 제주시 진군남 4길 5, 2층</span>
+                    <span class="block pc:inline">(장애인기업종합지원센터, 노형동) </span>
+                </p>
+                <p>
+                    <span class="block pc:inline">TEL. 064-745-0127   FAX. 064-749-8235</span>
+                    <span class="block pc:inline">E-mail. admin@litchi.co.kr</span>
+                </p>
+                <p>
+                    <span class="block pc:inline">사업자등록번호 156-54-00612</span>
+                    <span class="block pc:inline">통신판매번호 2024-제주노형-0123</span>
+                    <span class="block pc:inline">개인정보관리책임자 임산</span>
+                </p>
+            </address>
+
+            <div class="break-keep text-[16px] font-bold mb-[34px] pc:text-[18px]">
+                <a href="" class="block text-white mb-[10px] pc:mb-0 pc:inline-block pc:mr-[20px]">회사소개서 다운로드</a>
+                <a href="" class="block text-white pc:inline-block">개인정보처리방침</a>
+            </div>
+
+            <p class="font-black text-[16px]">© LITCHI. All rights reserved.</p>
+        </div>
+
+    </footer>
+    <!-- E:footer -->
+
+    <!-- javaScript -->
+
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

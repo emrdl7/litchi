@@ -34,6 +34,9 @@ module.exports = {
     extend: {
       boxShadow: {
         'mainSolution' : '0px 15px 21px 1px rgba(0, 0, 0, 0.2)',
+        'haccp' : '0px 4px 14px rgba(0, 0, 0, 0.25)',
+        'input' : '0px 4px 4px rgba(0, 0, 0, 0.25)',
+
       },
       backgroundImage: {
         logo: "url('./image/logo.svg')",
@@ -53,6 +56,7 @@ module.exports = {
         location: "url('./image/icon-location.svg')",
 
         home: "url('./image/icon-home.svg')",
+        del: "url('./image/icon-delete.svg')",
 
         stop: "url('./image/icon-stop.svg')",
         play: "url('./image/icon-play.svg')",
@@ -60,6 +64,8 @@ module.exports = {
         job1: "url('./image/icon-job1.png')",
         job2: "url('./image/icon-job2.png')",
         job3: "url('./image/icon-job3.png')",
+
+        haccpbg: "url('./image/img-haccp.jpg')",
 
         graphql: "url('./image/icon-graphql.svg')",
         nextjs: "url('./image/icon-nextjs.svg')",
