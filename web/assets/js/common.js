@@ -80,11 +80,14 @@ function hideAllSubMenus() {
 // h3 > a 클릭 이벤트 처리
 h3Links.forEach(function (h3link) {
   h3link.addEventListener("click", function (event) {
-    event.preventDefault(); // 기본 동작 방지 (예: 링크 이동)
 
     const parentLi = h3link.closest("li"); // 클릭된 a의 li 부모 찾기
     const ul = parentLi.querySelector("ul"); // li 아래 ul 찾기
     const isCurrentlyActive = h3link.classList.contains("active");
+
+    if(ul) {
+      event.preventDefault(); // 기본 동작 방지 (예: 링크 이동)
+    }
 
     // 모든 메뉴와 링크 초기화
     deactivateAllLinks();
